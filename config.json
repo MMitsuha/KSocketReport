@@ -1,5 +1,14 @@
 {
   "UsingVersion": "V0.0.0.2",
+  "V0.0.0.3": {
+    "Redirector": [
+      {
+        "SysVersion": "0.0.0.2",
+        "RedirectConfigVersion": "0.0.0.2"
+      }
+    ],
+    "KTJStatus": 1
+  },
   "V0.0.0.2": {
     "Redirector": [
       {
