@@ -1,6 +1,6 @@
 {
-  "UsingVersion": "V0.0.0.3",
-  "V0.0.0.3": {
+  "UsingVersion": "0.0.0.3",
+  "0.0.0.3": {
     "Redirector": [
       {
         "SysVersion": "0.0.0.2",
@@ -10,7 +10,7 @@
     "KTJStatus": 1,
     "SafeModeBooting": 0
   },
-  "V0.0.0.2": {
+  "0.0.0.2": {
     "Redirector": [
       {
         "SysVersion": "0.0.0.1",
@@ -20,6 +20,6 @@
     "KTJStatus": 0,
     "SafeModeBooting": 0
   },
-  "V0.0.0.1": {
+  "0.0.0.1": {
   }
 }
