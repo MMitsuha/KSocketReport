@@ -1,7 +1,0 @@
-{
-	"OsVersion":	"dwMajorVersion: 6,dwMinorVersion: 1,dwBuildNumber: 7601,dwPlatformId: 2",
-	"ConfInfo":	"DiskCount: 1,FloppyCount: 0,CdRomCount: 1,TapeCount: 0,ScsiPortCount: 33,SerialCount: 0,ParallelCount: 0,Version: 40",
-	"Vendor":	"GenuineIntel",
-	"Processor":	"Intel(R) Core(TM) i5-4200M CPU @ 2.50GHz",
-	"ProcessorFeatures":	["CPUID_1: Edx: 529267711,Ecx: 4294586883", "CPUID_7: Ebx: 10155", "CPUID_0x80000001: Edx: 739248128,Ecx: 33"]
-}
