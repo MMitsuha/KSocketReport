@@ -1,0 +1,268 @@
+[2021-07-26 18:25:55.653] [KTorjan][+] HTTPS: [SSLConnect] Seeding the random number generator...
+
+[2021-07-26 18:25:55.653] [KTorjan][+] HTTPS: [SSLConnect] ctr_drbg_init ok!
+
+[2021-07-26 18:25:55.653] [KTorjan][+] HTTPS: [SSLConnect] Loading the CA root certificate...
+
+[2021-07-26 18:25:55.653] [KTorjan][+] HTTPS: [SSLConnect] Connecting to tcp 192.30.255.117:47873...
+
+[2021-07-26 18:25:55.841] [KTorjan][+] HTTPS: [SSLConnect] net_connect ok!
+
+[2021-07-26 18:25:55.841] [KTorjan][+] HTTPS: [SSLConnect] Setting up the SSL/TLS structure...
+
+[2021-07-26 18:25:55.841] [KTorjan][+] HTTPS: [SSLConnect] ssl_init ok!
+
+[2021-07-26 18:25:55.841] [KTorjan][+] HTTPS: [SSLConnect] Performing the SSL / TLS handshake...
+
+[2021-07-26 18:25:56.714] [KTorjan][+] HTTPS: [SSLConnect] ssl_handshake ok!
+
+[2021-07-26 18:25:56.714] [KTorjan][+] HTTPS: [SSLConnect] Verifying peer X.509 certificate...
+
+[2021-07-26 18:25:56.714] [KTorjan][+] HTTPS: [SSLConnect] verify peer X.509 certificate ok!
+
+[2021-07-26 18:25:56.714] [KTorjan][+] HTTPS: [SSLConnect] Con=FFFFF880047E4F90 connected!
+
+[2021-07-26 18:25:56.714] [KTorjan][+] Rest: [RestAPIGetFile] Send: 203
+
+[2021-07-26 18:25:56.714] [KTorjan][+] Rest: [RestAPIGetFile] ------START------
+
+[2021-07-26 18:25:57.073] [KTorjan][-] HTTPS: [ssl_cli_debug] H:\CodeSpace\KTorjan\KTorjan\HTTPS\polarssl2\src\ssl_tls.c(4157): ssl_read_record() returned -30848 (0xffff8780)
+
+[2021-07-26 18:25:57.073] [KTorjan][-] HTTPS: [SSLRead] ssl_read error! returned -30848.
+
+[2021-07-26 18:25:57.073] [KTorjan][-] HTTPS: [ssl_cli_debug] H:\CodeSpace\KTorjan\KTorjan\HTTPS\polarssl2\src\ssl_tls.c(1470): cipher_check_tag() returned -25344 (0xffff9d00)
+
+[2021-07-26 18:25:57.089] [KTorjan][-] HTTPS: [ssl_cli_debug] H:\CodeSpace\KTorjan\KTorjan\HTTPS\polarssl2\src\ssl_tls.c(2198): ssl_decrypt_buf() returned -29056 (0xffff8e80)
+
+[2021-07-26 18:25:57.089] [KTorjan][-] HTTPS: [ssl_cli_debug] H:\CodeSpace\KTorjan\KTorjan\HTTPS\polarssl2\src\ssl_tls.c(4157): ssl_read_record() returned -29056 (0xffff8e80)
+
+[2021-07-26 18:25:57.089] [KTorjan][-] HTTPS: [SSLRead] ssl_read error! returned -29056.
+
+[2021-07-26 18:25:57.089] [KTorjan][+] Rest: [RestAPIGetFile] -------END-------
+
+[2021-07-26 18:25:57.089] [KTorjan][+] HTTPS: [SSLClose] Disconnect Con=FFFFF880047E4F90.
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - FPU           (Floating-point Unit on-chip)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - VME           (Virtual Mode Extension)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - DE            (Debugging Extension)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - PSE           (Page Size Extension)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - TSC           (Time Stamp Counter)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - MSR           (Model Specific Registers)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - PAE           (Physical Address Extension)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - MCE           (Machine Check Exception)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - CX8           (CMPXCHG8 Instructions)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - APIC          (On-chip APIC hardware)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - SEP           (Fast System Call)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - MTRR          (Memory type Range Registers)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - PGE           (Page Global Enable)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - MCA           (Machine Check Architecture)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - CMOV          (Conditional Move Instruction)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - PAT           (Page Attribute Table)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - PSE36         (36bit Page Size Extension
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - PSN           (Processor Serial Number)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - CLFSH         (CFLUSH Instruction)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - DS            (Debug Store)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - ACPI          (Thermal Monitor & Software Controlled Clock)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - MMX           (Multi-Media Extension)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - FXSR          (Fast Floating Point Save & Restore)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - SSE           (Streaming SIMD Extension 1)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - SSE2          (Streaming SIMD Extension 2)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - SS            (Self Snoop)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - HTT           (Hyper Threading Technology)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - TM            (Thermal Monitor)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - PBE           (Pend Break Enabled)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - SSE3          (Streaming SMD Extension 3)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - MW            (Monitor Wait Instruction
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - CPL           (CPL-qualified Debug Store)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - VMX           (Virtual Machine Extensions)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - EST           (Enchanced Speed Test)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - TM2           (Thermal Monitor 2)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - SSSE3         (Supplemental Streaming SIMD Extensions 3)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - L1            (L1 Context ID)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - FMA3          (Fused Multiply-Add 3-operand Form)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - CAE           (Compare And Exchange 16B)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - SSE41         (Streaming SIMD Extensions 4.1)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - SSE42         (Streaming SIMD Extensions 4.2)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - POPCNT        (Advanced Bit Manipulation - Bit Population Count Instruction)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - AES           (Advanced Encryption Standard)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - AVX           (Advanced Vector Extensions)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - RDRAND        (Random Number Generator)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - AVX2          (Advanced Vector Extensions 2)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - BMI1          (Bit Manipulations Instruction Set 1)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - BMI2          (Bit Manipulations Instruction Set 2)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - ADX           (Multi-Precision Add-Carry Instruction Extensions)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - AVX512F       (512-bit extensions to Advanced Vector Extensions Foundation)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - AVX512PFI     (512-bit extensions to Advanced Vector Extensions Prefetch Instructions)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - AVX512ERI     (512-bit extensions to Advanced Vector Extensions Exponential and Reciprocal Instructions)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - AVX512CDI     (512-bit extensions to Advanced Vector Extensions Conflict Detection Instructions)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - SHA           (Secure Hash Algorithm)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - X64           (64-bit Extensions/Long mode)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - LZCNT         (Advanced Bit Manipulation - Leading Zero Bit Count Instruction)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - SSE4A         (Streaming SIMD Extensions 4a)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - FMA4          (Fused Multiply-Add 4-operand Form)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - XOP           (Extended Operations)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - TBM           (Trailing Bit Manipulation Instruction)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - LWP           (Light Weight Profiling Support)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - WDT           (Watchdog Timer Support)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - IBS           (Instruction Based Sampling)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - 3DNOWPREFETCH (PREFETCH and PREFETCHW instruction support)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - MISALIGNSSE   (Misaligned SSE mode)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] NO  - SVM           (Secure Virtual Machine)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] KTJ: [DriverEntry] YES - LAHFSAHF      (LAHF and SAHF instruction support in 64-bit mode)
+
+[2021-07-26 18:25:57.089] [KTorjan][+] HTTPS: [SSLConnect] Seeding the random number generator...
+
+[2021-07-26 18:25:57.089] [KTorjan][+] HTTPS: [SSLConnect] ctr_drbg_init ok!
+
+[2021-07-26 18:25:57.089] [KTorjan][+] HTTPS: [SSLConnect] Loading the CA root certificate...
+
+[2021-07-26 18:25:57.089] [KTorjan][+] HTTPS: [SSLConnect] Connecting to tcp 192.30.255.117:47873...
+
+[2021-07-26 18:25:57.291] [KTorjan][+] HTTPS: [SSLConnect] net_connect ok!
+
+[2021-07-26 18:25:57.291] [KTorjan][+] HTTPS: [SSLConnect] Setting up the SSL/TLS structure...
+
+[2021-07-26 18:25:57.291] [KTorjan][+] HTTPS: [SSLConnect] ssl_init ok!
+
+[2021-07-26 18:25:57.291] [KTorjan][+] HTTPS: [SSLConnect] Performing the SSL / TLS handshake...
+
+[2021-07-26 18:25:58.571] [KTorjan][+] HTTPS: [SSLConnect] ssl_handshake ok!
+
+[2021-07-26 18:25:58.571] [KTorjan][+] HTTPS: [SSLConnect] Verifying peer X.509 certificate...
+
+[2021-07-26 18:25:58.571] [KTorjan][+] HTTPS: [SSLConnect] verify peer X.509 certificate ok!
+
+[2021-07-26 18:25:58.571] [KTorjan][+] HTTPS: [SSLConnect] Con=FFFFF880047E4F90 connected!
+
+[2021-07-26 18:25:58.571] [KTorjan][+] Rest: [RestAPIGetFile] Send: 228
+
+[2021-07-26 18:25:58.571] [KTorjan][+] Rest: [RestAPIGetFile] ------START------
+
+[2021-07-26 18:25:58.883] [KTorjan][-] HTTPS: [ssl_cli_debug] H:\CodeSpace\KTorjan\KTorjan\HTTPS\polarssl2\src\ssl_tls.c(4157): ssl_read_record() returned -30848 (0xffff8780)
+
+[2021-07-26 18:25:58.883] [KTorjan][-] HTTPS: [SSLRead] ssl_read error! returned -30848.
+
+[2021-07-26 18:25:58.883] [KTorjan][-] HTTPS: [ssl_cli_debug] H:\CodeSpace\KTorjan\KTorjan\HTTPS\polarssl2\src\ssl_tls.c(1470): cipher_check_tag() returned -25344 (0xffff9d00)
+
+[2021-07-26 18:25:58.898] [KTorjan][-] HTTPS: [ssl_cli_debug] H:\CodeSpace\KTorjan\KTorjan\HTTPS\polarssl2\src\ssl_tls.c(2198): ssl_decrypt_buf() returned -29056 (0xffff8e80)
+
+[2021-07-26 18:25:58.898] [KTorjan][-] HTTPS: [ssl_cli_debug] H:\CodeSpace\KTorjan\KTorjan\HTTPS\polarssl2\src\ssl_tls.c(4157): ssl_read_record() returned -29056 (0xffff8e80)
+
+[2021-07-26 18:25:58.898] [KTorjan][-] HTTPS: [SSLRead] ssl_read error! returned -29056.
+
+[2021-07-26 18:25:58.898] [KTorjan][+] Rest: [RestAPIGetFile] -------END-------
+
+[2021-07-26 18:25:58.898] [KTorjan][+] HTTPS: [SSLClose] Disconnect Con=FFFFF880047E4F90.
+
+[2021-07-26 18:25:58.898] [KTorjan][+] HTTPS: [SSLConnect] Seeding the random number generator...
+
+[2021-07-26 18:25:58.898] [KTorjan][+] HTTPS: [SSLConnect] ctr_drbg_init ok!
+
+[2021-07-26 18:25:58.898] [KTorjan][+] HTTPS: [SSLConnect] Loading the CA root certificate...
+
+[2021-07-26 18:25:58.898] [KTorjan][+] HTTPS: [SSLConnect] Connecting to tcp 192.30.255.117:47873...
+
+[2021-07-26 18:25:59.085] [KTorjan][+] HTTPS: [SSLConnect] net_connect ok!
+
+[2021-07-26 18:25:59.085] [KTorjan][+] HTTPS: [SSLConnect] Setting up the SSL/TLS structure...
+
+[2021-07-26 18:25:59.085] [KTorjan][+] HTTPS: [SSLConnect] ssl_init ok!
+
+[2021-07-26 18:25:59.085] [KTorjan][+] HTTPS: [SSLConnect] Performing the SSL / TLS handshake...
+
+[2021-07-26 18:26:00.209] [KTorjan][+] HTTPS: [SSLConnect] ssl_handshake ok!
+
+[2021-07-26 18:26:00.209] [KTorjan][+] HTTPS: [SSLConnect] Verifying peer X.509 certificate...
+
+[2021-07-26 18:26:00.209] [KTorjan][+] HTTPS: [SSLConnect] verify peer X.509 certificate ok!
+
+[2021-07-26 18:26:00.209] [KTorjan][+] HTTPS: [SSLConnect] Con=FFFFF880047E4F90 connected!
+
+[2021-07-26 18:26:00.240] [KTorjan][+] Rest: [RestAPIPutFile] Send: 977
+
+[2021-07-26 18:26:00.240] [KTorjan][+] Rest: [RestAPIPutFile] ------START------
+
+[2021-07-26 18:26:00.755] [KTorjan][-] HTTPS: [ssl_cli_debug] H:\CodeSpace\KTorjan\KTorjan\HTTPS\polarssl2\src\ssl_tls.c(4157): ssl_read_record() returned -30848 (0xffff8780)
+
+[2021-07-26 18:26:00.755] [KTorjan][-] HTTPS: [SSLRead] ssl_read error! returned -30848.
+
+[2021-07-26 18:26:00.755] [KTorjan][-] HTTPS: [ssl_cli_debug] H:\CodeSpace\KTorjan\KTorjan\HTTPS\polarssl2\src\ssl_tls.c(1470): cipher_check_tag() returned -25344 (0xffff9d00)
+
+[2021-07-26 18:26:00.755] [KTorjan][-] HTTPS: [ssl_cli_debug] H:\CodeSpace\KTorjan\KTorjan\HTTPS\polarssl2\src\ssl_tls.c(2198): ssl_decrypt_buf() returned -29056 (0xffff8e80)
+
+[2021-07-26 18:26:00.755] [KTorjan][-] HTTPS: [ssl_cli_debug] H:\CodeSpace\KTorjan\KTorjan\HTTPS\polarssl2\src\ssl_tls.c(4157): ssl_read_record() returned -29056 (0xffff8e80)
+
+[2021-07-26 18:26:00.755] [KTorjan][-] HTTPS: [SSLRead] ssl_read error! returned -29056.
+
+[2021-07-26 18:26:00.755] [KTorjan][+] Rest: [RestAPIPutFile] -------END-------
+
+[2021-07-26 18:26:00.755] [KTorjan][+] HTTPS: [SSLClose] Disconnect Con=FFFFF880047E4F90.
+
+[2021-07-26 18:26:00.755] [KTorjan][+] DiskIOEx2: [ScsiReadWriteDisk] Translated:Offset:0 ,Size:1 ,Request:Offset:0 ,Size:1
+
